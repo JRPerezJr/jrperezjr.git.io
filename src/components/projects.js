@@ -1,0 +1,246 @@
+import React, { Component } from "react";
+import {
+  Tabs,
+  Tab,
+  Grid,
+  Cell,
+  Card,
+  CardTitle,
+  CardText,
+  CardActions,
+  Button,
+  CardMenu
+} from "react-mdl";
+// import mean from '../images/mean.png';
+export default class Projects extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { activeTab: 0 };
+  }
+  toggleCategories() {
+    //<--------------MEAN Projects page------------------->
+    if (this.state.activeTab === 0) {
+      return (
+        <div className="projects-grid">
+          {/* <--Disaster Project start--> */}
+          <Card
+            shadow={5} 
+            // className="disaster-card" 
+            style={{ margin: "auto" }}
+          >
+            <CardTitle className="title-image-mean">Disaster</CardTitle>
+            <CardText>
+              <div className="card-text">
+                <strong>
+                  A group project for NASA Space Apps Challenge 2018:{" "}
+                </strong>
+                <p>
+                  The project was a disaster preparedness application designed
+                  to help navigate through natural disasters such as food,
+                  tornadoes, wildfires, earthquakes, and nuclear radiation for
+                  before, during and after the event. It allows for users to be
+                  informed of each disaster type and a checklist of the things
+                  they need to pack into the bag for safety.
+                </p>
+                <ul>
+                  <li>
+                    Managed the project development and assisted with Git issues
+                  </li>
+                  <li>
+                    Added and routed each disaster component in the project
+                  </li>
+                  <li>Embedded YouTube to each disaster page</li>
+                  <li>
+                    Tested the backend functionality and reported back results
+                  </li>
+                  <li>Created the project license text file</li>
+                  <li>
+                    Managed branching and merging of the project in Git Hub
+                  </li>
+                  <li>
+                    Held Teamviewer meetings with team to discuss project and
+                    development
+                  </li>
+                </ul>
+                <strong>Technologies Utilized: </strong>
+                <p>
+                  AWS E2C, MEAN (Mongo DB, Express, Angular 6, Node JS) stack, and
+                  Bootstrap library
+                </p>
+              </div>
+            </CardText>
+            <CardActions border>
+            <a href="https://github.com/sg27950/disaster/tree/ForPortfolioUse" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'rgb(63,81,181)'}}><Button colored>GitHub</Button></a>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              {/* <IconButton name="share" /> */}
+            </CardMenu>
+          </Card>
+          {/* <--Disaster Project end--> */}
+
+          {/* <--Restaurant Reviewer start--> */}
+          <Card shadow={5} style={{ margin: "auto" }}>
+            <CardTitle className="title-image-mean">Restaurant Reviewer</CardTitle>
+            <CardText>
+              <div className="card-text">
+                <strong>
+                  Under Construction:{" "}
+                </strong>
+                <p>
+                  Under Construction
+                </p>
+                <strong>Technologies Utilized: </strong>
+                <p>
+                  MEAN (Mongo DB, Express, Angular 6, Node JS) stack, and
+                  Materialize library
+                </p>
+              </div>
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              {/* <IconButton name="share" /> */}
+            </CardMenu>
+          </Card>
+          {/* <--Restaurant Reviewer End--> */}
+        </div>
+      );
+      //<-----------------React projects page--------------------->
+    } else if (this.state.activeTab === 1) {
+      return (
+        <div className="projects-grid">
+          <Card shadow={5} style={{ margin: "auto" }}>
+            <CardTitle className="title-image-react"
+              // style={{
+              //   color: "#fff",
+              //   height: "31rem",
+              //   background:
+              //     "url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover"
+              // }}
+            >
+              This Portfolio
+            </CardTitle>
+            <CardText>
+              <div className="card-text">
+              <strong>
+                    My Portfolio website:{" "}
+                  </strong>
+                  <p>
+                    First iteration of a single page web application built with React. 
+                  </p>
+                  <strong>Technologies & Libraries Utilized: </strong>
+                  <p>
+                    React, React-MDL, React Router Dom, Chrome Developer Tools, Firefox Web Developer Tools, Google Fonts and Font Awesome
+                  </p>
+              </div>
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              {/* <IconButton name="share" /> */}
+            </CardMenu>
+          </Card>
+          {/* React Portfolio End */}
+        </div>
+      );
+      //<----------------------Java projects page------------------------->
+    } else if (this.state.activeTab === 2) {
+      return (
+        <div className="projects-grid">
+          <Card shadow={5} style={{ minWidth: "512", margin: "auto" }}>
+            <CardTitle className="title-image-java">
+              Courses
+            </CardTitle>
+            <CardText>
+            <div className="card-text">
+                <strong>
+                      Under Development:{" "}
+                    </strong>
+                    <p>
+                      Under Development
+                    </p>
+                    
+                    <strong>Technologies & Libraries Utilized: </strong>
+                    <p>
+                      Java, Spring Boot, MySQL, and Materialize
+                    </p>
+                </div>
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              {/* <IconButton name="share" /> */}
+            </CardMenu>
+          </Card>
+        </div>
+      );
+      //<------------------------Flutter projects page------------------>
+    } else if (this.state.activeTab === 3) {
+      return (
+        <div className="projects-grid">
+          <Card shadow={5} style={{ minWidth: "500", margin: "auto" }}>
+            <CardTitle className="title-image-flutter">
+              Vehicle Campaign Finder
+            </CardTitle>
+            <CardText>
+              <div className="card-text">
+                <strong>
+                      Under Development:{" "}
+                    </strong>
+                    <p>
+                      Under Development
+                    </p>
+                    
+                    <strong>Technologies & Libraries Utilized: </strong>
+                    <p>
+                      Flutter, Dart, Android Studio, Xcode/iOS
+                    </p>
+                </div>
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              {/* <IconButton name="share" /> */}
+            </CardMenu>
+          </Card>
+          
+        </div>
+      );
+    }
+  }
+  render() {
+    return (
+      <div>
+        <Tabs
+          className="category-tabs"
+          activeTab={this.state.activeTab}
+          onChange={tabId => this.setState({ activeTab: tabId })}
+          ripple
+        >
+          <Tab style={{ color: "#7ea1df" }}>MEAN</Tab>
+          <Tab style={{ color: "#7ea1df" }}>React</Tab>
+          <Tab style={{ color: "#7ea1df" }}>Java</Tab>
+          <Tab style={{ color: "#7ea1df" }}>Flutter</Tab>
+        </Tabs>
+        <Grid>
+          <Cell col={12}>
+            <div className="content">{this.toggleCategories()}</div>
+          </Cell>
+        </Grid>
+      </div>
+    );
+  }
+}
