@@ -131,11 +131,11 @@ export default class Projects extends Component {
                     My Portfolio website:{" "}
                   </strong>
                   <p>
-                    First iteration of a single page web application built with React. 
+                    First iteration of a single page web application built with React and deployed with Amazon S3.
                   </p>
                   <strong>Technologies & Libraries Utilized: </strong>
                   <p>
-                    React, React-MDL, React Router Dom, Chrome Developer Tools, Firefox Web Developer Tools, Google Fonts and Font Awesome
+                    React, React-MDL, React Router Dom, Amazon S3, Chrome Developer Tools, Firefox Web Developer Tools, Google Fonts and Font Awesome
                   </p>
               </div>
             </CardText>
