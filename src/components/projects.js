@@ -77,7 +77,7 @@ export default class Projects extends Component {
             </CardText>
             <CardActions border>
             <a href="https://github.com/sg27950/disaster/tree/ForPortfolioUse" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'rgb(63,81,181)'}}><Button colored>GitHub</Button></a>
-              <Button colored>CodePen</Button>
+              {/* <Button colored>CodePen</Button> */}
             <a href="http://disaster.projects.jperezdevinjp.tech" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'rgb(63,81,181)'}}><Button colored>LiveDemo</Button></a>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
@@ -106,7 +106,7 @@ export default class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
+              {/* <Button colored>CodePen</Button> */}
               <Button colored>LiveDemo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
@@ -147,7 +147,7 @@ export default class Projects extends Component {
             </CardText>
             <CardActions border>
             <a href="https://github.com/JRPerezJr/jrperezjr.git.io" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'rgb(63,81,181)'}}><Button colored>GitHub</Button></a>
-              <Button colored>CodePen</Button>
+              {/* <Button colored>CodePen</Button> */}
             <a href="http://jperezdevinjp.tech.s3-website-ap-northeast-1.amazonaws.com" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'rgb(63,81,181)'}}><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
@@ -182,7 +182,7 @@ export default class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
+              {/* <Button colored>CodePen</Button> */}
               <Button colored>LiveDemo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
@@ -216,7 +216,7 @@ export default class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
+              {/* <Button colored>CodePen</Button> */}
               <Button colored>LiveDemo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
