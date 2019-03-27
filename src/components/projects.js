@@ -141,7 +141,7 @@ export default class Projects extends Component {
                   </p>
                   <strong>Technologies & Libraries Utilized: </strong>
                   <p>
-                    React, React-MDL, React Router Dom, Amazon S3, VIM, Chrome Developer Tools, Firefox Web Developer Tools, Google Fonts and Font Awesome
+                    React, React-MDL, React Router Dom, Amazon S3, AWS CLI, VIM, Chrome Developer Tools, Firefox Web Developer Tools, Google Fonts and Font Awesome
                   </p>
               </div>
             </CardText>

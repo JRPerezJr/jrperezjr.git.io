@@ -58,7 +58,7 @@ export default class Resume extends Component {
               <h5 style={{color: '#81a5e3'}}>Web</h5>
               <hr style={{borderTop: '5px solid #7ea1df', width: '100%'}}/>
               <h4>
-                <a href="https://www.jperezdevinjp.tech" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>jperezdevinjp.tech</a>
+                <a href="http://portfolio.jperezdevinjp.tech/" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>portfolio.jperezdevinjp.tech</a>
               </h4>
             </div>
           </Cell>
