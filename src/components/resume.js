@@ -60,6 +60,12 @@ export default class Resume extends Component {
               <h4>
                 <a href="http://portfolio.jperezdevinjp.tech/" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>portfolio.jperezdevinjp.tech</a>
               </h4>
+              <br/>
+              <h5 style={{color: '#81a5e3'}}>Resume</h5>
+              <hr style={{borderTop: '5px solid #7ea1df', width: '100%'}}/>
+              <h4>
+                <a href="https://drive.google.com/open?id=11E-1ZnoFQwPPPthxUT51N_l6wrxI6z1C" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>View</a>
+              </h4>
             </div>
           </Cell>
           <Cell className="resume-right-col" col={8}>
