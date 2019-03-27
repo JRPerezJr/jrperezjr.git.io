@@ -40,7 +40,7 @@ export default class Projects extends Component {
                   tornadoes, wildfires, earthquakes, and nuclear radiation for
                   before, during and after the event. It allows for users to be
                   informed of each disaster type and a checklist of the things
-                  they need to pack into the bag for safety.
+                  they need to pack into the bag for safety. Completion time 24 hours.
                 </p>
                 <ul>
                   <li>
@@ -61,6 +61,12 @@ export default class Projects extends Component {
                     Held Teamviewer meetings with team to discuss project and
                     development
                   </li>
+                  <li>
+                    Created diasater components and fire gif for visualization.
+                  </li>
+                  <li>
+                    Deployed project to AWS EC2 and submitted to NASA Space Apps Challenge 2018.
+                  </li>
                 </ul>
                 <strong>Technologies Utilized: </strong>
                 <p>
@@ -72,7 +78,7 @@ export default class Projects extends Component {
             <CardActions border>
             <a href="https://github.com/sg27950/disaster/tree/ForPortfolioUse" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'rgb(63,81,181)'}}><Button colored>GitHub</Button></a>
               <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+            <a href="http://disaster.projects.jperezdevinjp.tech" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'rgb(63,81,181)'}}><Button colored>LiveDemo</Button></a>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               {/* <IconButton name="share" /> */}
@@ -135,13 +141,14 @@ export default class Projects extends Component {
                   </p>
                   <strong>Technologies & Libraries Utilized: </strong>
                   <p>
-                    React, React-MDL, React Router Dom, Amazon S3, Chrome Developer Tools, Firefox Web Developer Tools, Google Fonts and Font Awesome
+                    React, React-MDL, React Router Dom, Amazon S3, VIM, Chrome Developer Tools, Firefox Web Developer Tools, Google Fonts and Font Awesome
                   </p>
               </div>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+            <a href="https://github.com/JRPerezJr/jrperezjr.git.io" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'rgb(63,81,181)'}}><Button colored>GitHub</Button></a>
               <Button colored>CodePen</Button>
+            <a href="http://jperezdevinjp.tech.s3-website-ap-northeast-1.amazonaws.com" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'rgb(63,81,181)'}}><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               {/* <IconButton name="share" /> */}
