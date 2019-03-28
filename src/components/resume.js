@@ -134,7 +134,7 @@ export default class Resume extends Component {
               />
               <Skills
                 softDev="SOFTWARE/DEVTOOLS"
-                soft="MySQL, SQLite, Mongo DB Git, VSCode, Spring Tool Suite, Terminal/Command Prompt, Postman, MySQL Workbench "
+                soft="MySQL, SQLite, Mongo DB, Git, VSCode, Spring Tool Suite, Terminal/Command Prompt, Postman, MySQL Workbench "
               />
               <Skills
                 dataFormats="DATA FORMATS"
