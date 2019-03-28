@@ -270,11 +270,14 @@
     line-height: 1.5;
     padding-top: 2.2rem;
   }
+  .griffith {
+    padding: 1em;
+  }
 
   /* <--------Media Queries-----------------> */
   @media only screen and (max-width:316px) and (orientation: portrait) {
     img.me {
-      width: 45%;
+      width: 40%;
       padding: 1rem;
     }
     .tokyoMetro {
@@ -287,11 +290,14 @@
       color: rgba(255, 255, 255, 255) !important;
     }
     .avatar-img {
-      max-width: 54%;
+      max-width: 40%;
       display: block;
       height: auto;
       margin-left: 5rem;
       padding-top: 0em;
+    }
+    .banner-text {
+      margin-left: .2rem;
     }
     .banner-text h1 {
       font-size: 25px;
@@ -337,9 +343,10 @@
       font-size: 2.5rem;
     }
     .griffith {
-      max-width: 100%;
+      max-width: 91%;
       display: block;
       height: auto;
+      padding: 1em;
     }
     .about-col hr {
       width: 40%;
@@ -384,19 +391,14 @@
     }
   } */
 
-  /* <--Screens 360 x 640--> */
-  @media only screen and (min-width: 360px) and (min-height: 640px) {
-    .avatar-img {
-      max-width: 60%;
-    }
-
-  }
-  
   /* Screens over 375px */
   @media (min-width: 375px) {
     .avatar-img {
-      max-width: 59%;
+      max-width: 45%;
       padding-top: 1em;
+    }
+    .banner-text {
+      margin-left: 1.1rem;
     }
     .banner-text hr {
       width: 89%;
@@ -416,6 +418,16 @@
       width: 40%;
     }
   }
+/* <--Pixel--> 2 */
+@media only screen and (min-width: 411px) {
+  .avatar-img{
+    max-width: 50%;
+  }
+  .banner-text {
+    margin-left: 1.1rem;
+  }
+}
+
   /* iPhone 6 7 8 plus */
   @media only screen and (min-width: 414px) and (orientation: portrait) {
     .avatar-img{
