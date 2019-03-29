@@ -11,7 +11,7 @@ export default class LandingPage extends Component {
             <Cell col={12}>
             <img
                 src={me}
-                alt="avatar"
+                alt="My avatar"
                 className="avatar-img"
             />
             <div className="banner-text">
@@ -20,16 +20,16 @@ export default class LandingPage extends Component {
               <p>HTML5/CSS3 | <span className="b">Bootstrap</span> | Java/Spring | JavaScript | Angular 6 | <span className="m">M</span><span className="e">E</span><span className="a">A</span><span className="n">N</span></p>
               <div className="social-links">
                 {/* LinkedIn */}
-                  <a href="https://www.linkedin.com/in/devjuanperezjr" rel="noopener noreferrer" target="_blank">
+                  <a href="https://www.linkedin.com/in/devjuanperezjr" title="Go to my LinkedIn page" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
                   </a>
                 {/* Github */}
-                  <a href="https://github.com/JRPerezJr" rel="noopener noreferrer" target="_blank">
+                  <a href="https://github.com/JRPerezJr" title="Go to my Git Hub page" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-github-square" aria-hidden="true"/>
                   </a>
                 {/* Email */}
                 <Link to="/contact">
-                    <i className="fa fa-envelope-square" aria-hidden="true"/>
+                    <i className="fa fa-envelope-square" title="Go to my portfolio contact page" aria-hidden="true"/>
                 </Link>
               </div>
             </div>

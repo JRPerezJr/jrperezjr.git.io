@@ -14,7 +14,7 @@ export default class Resume extends Component {
             <div style={{textAlign: 'center'}}>
               <img
                 src={me1}
-                alt="avatar"
+                alt="My headshot"
                 className="me"
                 // style={{height: '300px', padding: '20px'}}
               />
@@ -36,7 +36,7 @@ export default class Resume extends Component {
               <h5 style={{color: '#81a5e3'}}>Location</h5>
               <hr style={{borderTop: '5px solid #7ea1df', width: '100%'}}/>
               <h4>
-                <a href="https://www.lonelyplanet.com/japan/tokyo" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>
+                <a href="https://www.lonelyplanet.com/japan/tokyo" title="Go to the Japan section of Lonely Planet" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>
                 Tokyo, Japan
                 </a>
               </h4>
@@ -50,7 +50,7 @@ export default class Resume extends Component {
               <h5 style={{color: '#81a5e3'}}>Email</h5>
               <hr style={{borderTop: '5px solid #7ea1df', width: '100%'}}/>
               <h4>
-                <a href="mailto:contact@jperezdevinjp.tech" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>
+                <a href="mailto:contact@jperezdevinjp.tech" title="Open default email program to send a message" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>
                 Contact
                 </a>
               </h4>
@@ -58,13 +58,13 @@ export default class Resume extends Component {
               <h5 style={{color: '#81a5e3'}}>Web</h5>
               <hr style={{borderTop: '5px solid #7ea1df', width: '100%'}}/>
               <h4>
-                <a href="http://portfolio.jperezdevinjp.tech/" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>portfolio.jperezdevinjp.tech</a>
+                <a href="http://portfolio.jperezdevinjp.tech/" title="Go to my portfolio main page" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>portfolio.jperezdevinjp.tech</a>
               </h4>
               <br/>
               <h5 style={{color: '#81a5e3'}}>Resume</h5>
               <hr style={{borderTop: '5px solid #7ea1df', width: '100%'}}/>
               <h4>
-                <a href="https://drive.google.com/open?id=1QlPjWdf8SEO14R1QSv7r_aEMDOyBBmeE" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>View</a>
+                <a href="https://drive.google.com/open?id=1QlPjWdf8SEO14R1QSv7r_aEMDOyBBmeE" title="Go to my Google Docs resume pdf file" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>View</a>
               </h4>
             </div>
           </Cell>

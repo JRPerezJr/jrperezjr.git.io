@@ -20,7 +20,7 @@ export default class AboutMe extends Component {
               </div>
             </div>
           </section>
-          <img src={griffith} className="griffith" alt="griffith park"/>
+          <img src={griffith} className="griffith" alt="A nightshot of Griffith Park "/>
         </Cell>
       </Grid>
 

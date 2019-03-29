@@ -11,7 +11,7 @@ export default class Contact extends Component {
           <h2>Juan Perez Jr.</h2>
           <img
             src={avatar}
-            alt="avatar"
+            alt="Avatar"
             // style={{height: '350px'}}
             className="contact-avatar"
             />
@@ -27,7 +27,7 @@ export default class Contact extends Component {
             <ListItem>
               <ListItemContent className="list-item-content">
                 <i className="fa fa-envelope" aria-hidden="true"/>
-                <a href="mailto:contact@jperezdevinjp.tech" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>Contact</a>
+                <a href="mailto:contact@jperezdevinjp.tech" title="Open default email program to send a message" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>Contact</a>
               </ListItemContent>
             </ListItem>
             
