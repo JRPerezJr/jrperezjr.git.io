@@ -299,7 +299,7 @@
       padding-top: 0em;
     }
     .banner-text {
-      margin-left: .2rem;
+      margin-left: 1.1rem;
     }
     .banner-text h1 {
       font-size: 25px;
@@ -386,11 +386,8 @@
       margin-left: -17rem;
     }
   }
-  /* @media only screen and (min-width: 1440px) and (orientation: landscape) {
-    .avatar-img {
-      max-width: 10%;
-      margin-top: 
-    }
+  /* @media only screen and (min-width: 320px) and (orientation: landscape) {
+
   } */
 
   /* Screens over 375px */
@@ -426,6 +423,18 @@
   }
   .banner-text {
     margin-left: 1.1rem;
+  }
+}
+@media only screen and (min-width: 544px) and (orientation: landscape) {
+  .avatar-img {
+    max-width: 21%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .banner-text {
+    margin-left: 11rem;
+    margin-top: -17rem;
+    width: 71%;
   }
 }
 
