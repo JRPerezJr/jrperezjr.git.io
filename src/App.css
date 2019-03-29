@@ -22,11 +22,13 @@
   
   }
   .background-page {
-    background: url(./images/japan.jpg) center / cover;
+    background: url(./images/code.jpg) center / cover;
   }
   .avatar-img {
     height: 500px;
     padding-top: 8em;
+    border: double 4px #ffffff;
+    border-radius: 15%;
   }
   .banner-text {
     background-color: black;
@@ -89,7 +91,7 @@
     height: 290px;
     font-weight: 700 !important;
     font-size: 1.5rem !important;
-    background: url(./mean.png) center / cover;
+    background: url(./images/mean.png) center / cover;
   }
   .title-image-react {
     color: #ffffff !important;
@@ -395,7 +397,6 @@
   @media (min-width: 375px) {
     .avatar-img {
       max-width: 45%;
-      padding-top: 1em;
     }
     .banner-text {
       margin-left: 1.1rem;
@@ -609,7 +610,7 @@
     .avatar-img{
       margin-left: 1rem;
       max-width: 15%;
-      margin-top: 3rem;
+      margin-top: 5rem;
     }
     .banner-text {
       margin-top: 18rem;
