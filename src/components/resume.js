@@ -97,7 +97,7 @@ export default class Resume extends Component {
                 Description="
                 Perform diagnosis and repair of all BMW models."
                 Details="
-                Achieved BMW level 1 certifcation.
+                Achieved BMW level 1 certification.
                 Promoted to diagnostic team in less than 3 years.
                 Maintained quality control of repairs in the workshop.
                 Successfully documented and reported common mistakes in the workshop."
