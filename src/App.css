@@ -221,6 +221,10 @@
     color: #ffffff;
     padding: 2em;
   }
+  .me {
+    border: double 4px #81a5e3;
+    margin-top: 1em;
+  }
   .resume-left-col {
     background: rgb(12, 12, 12);
     opacity: .9;
@@ -280,7 +284,7 @@
   @media only screen and (max-width:316px) and (orientation: portrait) {
     img.me {
       width: 40%;
-      padding: 1rem;
+      /* padding: 1rem; */
     }
     .tokyoMetro {
       width: 91%;
@@ -317,7 +321,7 @@
     }
     .me {
       width: 50%;
-      padding: 1rem;
+      
     }
     .tokyoMetro {
       width: 91%;
