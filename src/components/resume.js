@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
-import me1 from '../images/me1.jpg';
+import fullStackDeveloperJuanPerezJr1 from '../images/full-stack-developer-juan-perez-jr-1.jpg';
 import tokyo from '../images/tokyo.jpg';
 export default class Resume extends Component {
   render() {
@@ -13,8 +13,8 @@ export default class Resume extends Component {
           <Cell className="resume-left-col" col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src={me1}
-                alt="My headshot"
+                src={fullStackDeveloperJuanPerezJr1}
+                alt="full-stack-developer-juan-perez-jr"
                 className="me"
                 // style={{height: '300px', padding: '20px'}}
               />

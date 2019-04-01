@@ -15,12 +15,12 @@ export default class AboutMe extends Component {
                 <div col={4}>
                   <h2 className="text-white">About</h2>
                   <hr/>
-                  <p className="text-white-50">A Southern California native who enjoys cycling and the great outdoors. Curious from the start. Determined to succeed, because there are always multiple solutions to a problem. Empathetic to the world around me. A lifetime learner. I choose the least path traveled. Open minded to new ideas and technologies. An automotive professional in the luxury brand market and now a self sufficent developer.</p>
+                  <p className="text-white-50">A Southern California native who enjoys cycling and the great outdoors. Curious from the start. Determined to succeed, because there are always multiple solutions to a problem. Empathetic to the world around me. A lifetime learner. I choose the least path traveled. Open minded to new ideas and technologies. An automotive professional in the luxury brand market and now a self sufficient  developer.</p>
                 </div>
               </div>
             </div>
           </section>
-          <img src={griffith} className="griffith" alt="A nightshot of Griffith Park "/>
+          <img src={griffith} className="griffith" alt="full-stack-developer-juan-perez-jr-A nightshot of Griffith Park "/>
         </Cell>
       </Grid>
 

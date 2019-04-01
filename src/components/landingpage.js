@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import me from '../images/me.jpg';
+import fullStackDeveloperJuanPerezJr from '../images/full-stack-developer-juan-perez-jr.jpg';
 import { Link } from 'react-router-dom';
 
 export default class LandingPage extends Component {
@@ -10,8 +10,8 @@ export default class LandingPage extends Component {
         <Grid className="landing-grid">
             <Cell col={12}>
             <img
-                src={me}
-                alt="My avatar"
+                src={fullStackDeveloperJuanPerezJr}
+                alt="full-stack-developer-juan-perez-jr"
                 className="avatar-img"
             />
             <div className="banner-text">
