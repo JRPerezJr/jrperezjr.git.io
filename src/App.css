@@ -22,7 +22,7 @@
   
   }
   .background-page {
-    background: url(./images/code.jpg) center / cover;
+    background: url(./images/shot3.JPG) center / cover;
   }
   .avatar-img {
     height: 500px;
@@ -431,13 +431,13 @@
 }
 @media only screen and (min-width: 544px) and (orientation: landscape) {
   .avatar-img {
-    max-width: 21%;
+    max-width: 18%;
     margin-left: 2rem;
     margin-top: 2rem;
   }
   .banner-text {
     margin-left: 11rem;
-    margin-top: -17rem;
+    margin-top: -14rem;
     width: 71%;
   }
 }
