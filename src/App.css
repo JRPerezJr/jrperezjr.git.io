@@ -1,5 +1,7 @@
 /* home page css */
 .header-color {
+  position: sticky;
+  top: 0;
   background: #1f1f1f; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -13,6 +15,8 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .footer-color {
+  position: sticky;
+  bottom: 0;
   background: #1f1f1f; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
