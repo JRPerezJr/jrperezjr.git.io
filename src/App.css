@@ -164,6 +164,8 @@
     center / cover;
 }
 .category-tabs {
+  position: sticky;
+  top: 0;
   background: #1f1e1e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -179,6 +181,7 @@
 /* project page css */
 
 /* contact page css */
+
 /* .contact-body {
     margin: auto;
     position: fixed;
