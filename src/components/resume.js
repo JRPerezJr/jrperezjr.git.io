@@ -64,7 +64,7 @@ export default class Resume extends Component {
               <h5 style={{color: '#81a5e3'}}>Resume</h5>
               <hr style={{borderTop: '5px solid #7ea1df', width: '100%'}}/>
               <h4>
-                <a href="https://drive.google.com/open?id=1QlPjWdf8SEO14R1QSv7r_aEMDOyBBmeE" title="Go to my Google Docs resume pdf file" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>View</a>
+                <a href="https://drive.google.com/file/d/11gLYte_s3lUMgwIe5eng-eu5Ya9CbJbI/view?usp=sharing" title="Go to my Google Docs resume pdf file" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: 'white'}}>View</a>
               </h4>
             </div>
           </Cell>
