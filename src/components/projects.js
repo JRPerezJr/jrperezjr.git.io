@@ -200,7 +200,7 @@ export default class Projects extends Component {
                   A space for Smiths and Morrissey Fans to read about the band,
                   upload photos, and find local events in Los Angeles. Built
                   using the Materialize with the Spring Tool Suite. This project
-                  is under continuous under development. Please check back for
+                  is under continuous development. Please check back for
                   updates.
                 </p>
 
