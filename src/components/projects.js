@@ -17,6 +17,21 @@ export default class Projects extends Component {
     super(props);
     this.state = { activeTab: 0 };
   }
+  onClick() {
+    alert("Webpage is currently under maintenance. Please check back later.");
+  }
+  onClickJava() {
+    alert("This repo has not been pushed to Github. Please check back later.");
+  }
+  onClickGit() {
+    alert("This repo has not been pushed to Github. Please check back later.");
+  }
+  onClickFlutter() {
+    alert("This project has been postponed. Please check back later.");
+  }
+  onClickMeanRestaurant() {
+    alert("This project is still under development. Please check back later.");
+  }
   toggleCategories() {
     //<--------------MEAN Projects page------------------->
     if (this.state.activeTab === 0) {
@@ -82,19 +97,28 @@ export default class Projects extends Component {
                 href="https://github.com/sg27950/disaster/tree/ForPortfolioUse"
                 rel="noopener noreferrer"
                 target="_blank"
-                style={{ textDecoration: "none", color: "rgb(63,81,181)" }}
+                style={{
+                  textDecoration: "none",
+                  color: "rgb(63,81,181)"
+                }}
               >
                 <Button colored>GitHub</Button>
               </a>
               {/* <Button colored>CodePen</Button> */}
-              <a
+
+              {/* <--Live Demo button start--> */}
+              {/* <a
                 href="http://disaster.projects.jperezdevinjp.tech"
                 rel="noopener noreferrer"
                 target="_blank"
                 style={{ textDecoration: "none", color: "rgb(63,81,181)" }}
               >
                 <Button colored>LiveDemo</Button>
-              </a>
+              </a> */}
+              <Button onClick={this.onClick} colored>
+                LiveDemo
+              </Button>
+              {/* <--Live Demo button end--> */}
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               {/* <IconButton name="share" /> */}
@@ -119,9 +143,13 @@ export default class Projects extends Component {
               </div>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button onClick={this.onClickMeanRestaurant} colored>
+                GitHub
+              </Button>
               {/* <Button colored>CodePen</Button> */}
-              <Button colored>LiveDemo</Button>
+              <Button onClick={this.onClickMeanRestaurant} colored>
+                LiveDemo
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               {/* <IconButton name="share" /> */}
@@ -134,6 +162,7 @@ export default class Projects extends Component {
     } else if (this.state.activeTab === 1) {
       return (
         <div className="projects-grid">
+          {/* <--React Portfolio Project Start--> */}
           <Card shadow={5} style={{ margin: "auto" }}>
             <CardTitle
               className="title-image-react"
@@ -166,16 +195,22 @@ export default class Projects extends Component {
                 href="https://github.com/JRPerezJr/jrperezjr.git.io"
                 rel="noopener noreferrer"
                 target="_blank"
-                style={{ textDecoration: "none", color: "rgb(63,81,181)" }}
+                style={{
+                  textDecoration: "none",
+                  color: "rgb(63,81,181)"
+                }}
               >
                 <Button colored>GitHub</Button>
               </a>
               {/* <Button colored>CodePen</Button> */}
               <a
-                href="http://jperezdevinjp.tech.s3-website-ap-northeast-1.amazonaws.com"
+                href="http://portfolio.jperezdevinjp.tech/"
                 rel="noopener noreferrer"
                 target="_blank"
-                style={{ textDecoration: "none", color: "rgb(63,81,181)" }}
+                style={{
+                  textDecoration: "none",
+                  color: "rgb(63,81,181)"
+                }}
               >
                 <Button colored>Live Demo</Button>
               </a>
@@ -184,7 +219,63 @@ export default class Projects extends Component {
               {/* <IconButton name="share" /> */}
             </CardMenu>
           </Card>
-          {/* React Portfolio End */}
+          {/* <--React Portfolio Project Start--> */}
+
+          {/* <--React Automotive Project Start--> */}
+          <Card shadow={5} style={{ margin: "auto" }}>
+            <CardTitle className="title-image-react-auto">
+              Garabito's Garage
+            </CardTitle>
+            <CardText>
+              <div className="card-text">
+                <strong>Automotive Business Project: </strong>
+                <p>
+                  Simple single page layout for small businesses to manage
+                  content and messages. Content management with Contentful, an
+                  API-first content management infrastructure. Forms using the
+                  Formik library. Validations through the Yup library.
+                </p>
+                <strong>Technologies & Libraries Utilized: </strong>
+                <p>
+                  React, React Router Dom, Contentful, Formik, Yup, Amazon S3,
+                  AWS CLI, VIM, Chrome Developer Tools, Firefox Web Developer
+                  Tools, Materialize, Google Fonts and Font Awesome
+                </p>
+              </div>
+            </CardText>
+            <CardActions border>
+              {/* <a
+                href="https://github.com/JRPerezJr/jrperezjr.git.io"
+                rel="noopener noreferrer"
+                target="_blank"
+                style={{
+                  textDecoration: "none",
+                  color: "rgb(63,81,181)"
+                }}
+              >
+                <Button colored>GitHub</Button>
+              </a> */}
+              <Button onClick={this.onClickGit} colored>
+                GitHub
+              </Button>
+              {/* <Button colored>CodePen</Button> */}
+              <a
+                href="http://project.automotive.jperezdevinjp.tech/"
+                rel="noopener noreferrer"
+                target="_blank"
+                style={{
+                  textDecoration: "none",
+                  color: "rgb(63,81,181)"
+                }}
+              >
+                <Button colored>Live Demo</Button>
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              {/* <IconButton name="share" /> */}
+            </CardMenu>
+          </Card>
+          {/* <--React Automotive Project End--> */}
         </div>
       );
       //<----------------------Java projects page------------------------->
@@ -211,9 +302,11 @@ export default class Projects extends Component {
               </div>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button onClick={this.onClickJava} colored>
+                GitHub
+              </Button>
               {/* <Button colored>CodePen</Button> */}
-              <a
+              {/* <a
                 href="http://smiths.project.jperezdevinjp.tech/"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -223,7 +316,10 @@ export default class Projects extends Component {
                 }}
               >
                 <Button colored>Live Demo</Button>
-              </a>
+              </a> */}
+              <Button onClick={this.onClick} colored>
+                Live Demo
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               {/* <IconButton name="share" /> */}
@@ -249,9 +345,13 @@ export default class Projects extends Component {
               </div>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button onClick={this.onClickFlutter} colored>
+                GitHub
+              </Button>
               {/* <Button colored>CodePen</Button> */}
-              <Button colored>LiveDemo</Button>
+              <Button onClick={this.onClickFlutter} colored>
+                LiveDemo
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               {/* <IconButton name="share" /> */}
