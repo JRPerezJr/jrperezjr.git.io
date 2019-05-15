@@ -39,7 +39,7 @@
 }
 
 .background-page {
-  background: url(./images/shot3.JPG) center / cover;
+  background: url(./images/code.jpg) center / cover;
 }
 
 .avatar-img {
@@ -131,6 +131,14 @@
   font-weight: 700 !important;
   font-size: 1.5rem !important;
   background: url(./images/reactLogo.png) center / cover;
+}
+
+.title-image-react-auto {
+  color: #ffffff !important;
+  height: 31rem;
+  font-weight: 700 !important;
+  font-size: 1.5rem !important;
+  background: url(./images/autoproject.png) center / cover;
 }
 
 .title-image-java {
@@ -451,6 +459,10 @@
   }
 
   .title-image-react {
+    height: 20rem;
+  }
+
+  .title-image-react-auto {
     height: 20rem;
   }
 
