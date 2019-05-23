@@ -260,7 +260,7 @@ export default class Projects extends Component {
               </Button>
               {/* <Button colored>CodePen</Button> */}
               <a
-                href="http://project.automotive.jperezdevinjp.tech/"
+                href="http://automotive.project.jperezdevinjp.tech/"
                 rel="noopener noreferrer"
                 target="_blank"
                 style={{
