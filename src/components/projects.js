@@ -12,6 +12,8 @@ import {
   CardMenu
 } from "react-mdl";
 // import mean from '../images/mean.png';
+import { Event } from "./Track";
+
 export default class Projects extends Component {
   constructor(props) {
     super(props);
@@ -19,22 +21,32 @@ export default class Projects extends Component {
   }
   onClick() {
     alert("Webpage is currently under maintenance. Please check back later.");
+    Event("BUTTON", "Project_page MEAN live button clicked", "PROJECT_PAGE");
   }
   onClickJava() {
     alert("This repo has not been pushed to Github. Please check back later.");
+    Event("BUTTON", "Project_page Java GitHub button clicked", "PROJECT_PAGE");
   }
   onClickGit() {
     alert("This repo has not been pushed to Github. Please check back later.");
+    Event("BUTTON", "Project_page GitHUB button clicked", "PROJECT_PAGE");
   }
   onClickFlutter() {
     alert("This project has been postponed. Please check back later.");
+    Event("BUTTON", "Project_page Flutter buttons clicked", "PROJECT_PAGE");
   }
   onClickMeanRestaurant() {
     alert("This project is still under development. Please check back later.");
+    Event(
+      "BUTTON",
+      "Project_page MEAN Restaurant buttons clicked",
+      "PROJECT_PAGE"
+    );
   }
   toggleCategories() {
     //<--------------MEAN Projects page------------------->
     if (this.state.activeTab === 0) {
+      Event("PROJECT_LINK", "Project_Page MEAN Button clicked", "PROJECT_PAGE");
       return (
         <div className="projects-grid">
           {/* <--Disaster Project start--> */}
@@ -94,6 +106,13 @@ export default class Projects extends Component {
             </CardText>
             <CardActions border>
               <a
+                onClick={() =>
+                  Event(
+                    "LINK",
+                    "Project NASA GitHub Repo Button clicked",
+                    "PROJECT_PAGE"
+                  )
+                }
                 href="https://github.com/sg27950/disaster/tree/ForPortfolioUse"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -160,6 +179,11 @@ export default class Projects extends Component {
       );
       //<-----------------React projects page--------------------->
     } else if (this.state.activeTab === 1) {
+      Event(
+        "PROJECT_LINK",
+        "Project_page React Button clicked",
+        "PROJECT_PAGE"
+      );
       return (
         <div className="projects-grid">
           {/* <--React Portfolio Project Start--> */}
@@ -192,6 +216,13 @@ export default class Projects extends Component {
             </CardText>
             <CardActions border>
               <a
+                onClick={() =>
+                  Event(
+                    "LINK",
+                    "Project_page Portfolio GitHub Repo Button clicked",
+                    "PROJECT_PAGE"
+                  )
+                }
                 href="https://github.com/JRPerezJr/jrperezjr.git.io"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -204,6 +235,13 @@ export default class Projects extends Component {
               </a>
               {/* <Button colored>CodePen</Button> */}
               <a
+                onClick={() =>
+                  Event(
+                    "LINK",
+                    "Project_page Live Portfolio Button clicked",
+                    "PROJECT_PAGE"
+                  )
+                }
                 href="http://portfolio.jperezdevinjp.tech/"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -260,6 +298,13 @@ export default class Projects extends Component {
               </Button>
               {/* <Button colored>CodePen</Button> */}
               <a
+                onClick={() =>
+                  Event(
+                    "LINK",
+                    "Project_page Live Garabito Garage Button clicked",
+                    "PROJECT_PAGE"
+                  )
+                }
                 href="http://automotive.project.jperezdevinjp.tech/"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -280,6 +325,7 @@ export default class Projects extends Component {
       );
       //<----------------------Java projects page------------------------->
     } else if (this.state.activeTab === 2) {
+      Event("PROJECT_LINK", "Project_page Java Button clicked", "PROJECT_PAGE");
       return (
         <div className="projects-grid">
           <Card shadow={5} style={{ minWidth: "512", margin: "auto" }}>
@@ -329,6 +375,11 @@ export default class Projects extends Component {
       );
       //<------------------------Flutter projects page------------------>
     } else if (this.state.activeTab === 3) {
+      Event(
+        "PROJECT_LINK",
+        "Project_page Flutter Button clicked",
+        "PROJECT_PAGE"
+      );
       return (
         <div className="projects-grid">
           <Card shadow={5} style={{ minWidth: "500", margin: "auto" }}>

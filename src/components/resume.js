@@ -5,6 +5,7 @@ import Experience from "./experience";
 import Skills from "./skills";
 import fullStackDeveloperJuanPerezJr1 from "../images/full-stack-developer-juan-perez-jr-1.jpg";
 import tokyo from "../images/tokyo.jpg";
+import { Event } from "./Track";
 export default class Resume extends Component {
   render() {
     return (
@@ -37,6 +38,13 @@ export default class Resume extends Component {
               <hr style={{ borderTop: "5px solid #7ea1df", width: "100%" }} />
               <h4>
                 <a
+                  onClick={() =>
+                    Event(
+                      "LINK",
+                      "Portfolio resume_page Lonely Planet clicked",
+                      "RESUME_PAGE"
+                    )
+                  }
                   href="https://www.lonelyplanet.com/japan/tokyo"
                   title="Go to the Japan section of Lonely Planet"
                   rel="noopener noreferrer"
@@ -57,6 +65,13 @@ export default class Resume extends Component {
               <hr style={{ borderTop: "5px solid #7ea1df", width: "100%" }} />
               <h4>
                 <a
+                  onClick={() =>
+                    Event(
+                      "LINK",
+                      "Portfolio resume_page mail to clicked",
+                      "RESUME_PAGE"
+                    )
+                  }
                   href="mailto:contact@jperezdevinjp.tech"
                   title="Open default email program to send a message"
                   rel="noopener noreferrer"
@@ -71,6 +86,13 @@ export default class Resume extends Component {
               <hr style={{ borderTop: "5px solid #7ea1df", width: "100%" }} />
               <h4>
                 <a
+                  onClick={() =>
+                    Event(
+                      "LINK",
+                      "Portfolio resume_page Go_To_Porfolio clicked",
+                      "RESUME_PAGE"
+                    )
+                  }
                   href="http://portfolio.jperezdevinjp.tech/"
                   title="Go to my portfolio main page"
                   rel="noopener noreferrer"
@@ -85,6 +107,13 @@ export default class Resume extends Component {
               <hr style={{ borderTop: "5px solid #7ea1df", width: "100%" }} />
               <h4>
                 <a
+                  onClick={() =>
+                    Event(
+                      "LINK",
+                      "Portfolio resume_page Download Resume clicked",
+                      "RESUME_PAGE"
+                    )
+                  }
                   href="https://drive.google.com/file/d/11gLYte_s3lUMgwIe5eng-eu5Ya9CbJbI/view?usp=sharing"
                   title="Go to my Google Docs resume pdf file"
                   rel="noopener noreferrer"

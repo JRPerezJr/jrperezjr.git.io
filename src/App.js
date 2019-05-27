@@ -11,8 +11,14 @@ import {
 } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
+import { PageView, initGA } from "./components/Track";
+import { Event } from "./components/Track";
 
 class App extends Component {
+  componentDidMount() {
+    initGA("UA-140856444-1");
+    PageView("/", "/resume", "/aboutme", "/projects", "/contact");
+  }
   render() {
     return (
       <div className="demo-big-content">
@@ -27,10 +33,54 @@ class App extends Component {
             scroll
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link
+                onClick={() =>
+                  Event(
+                    "LINK",
+                    "Portfolio header_bar link to resume clicked",
+                    "HEADER_BAR"
+                  )
+                }
+                to="/resume"
+              >
+                Resume
+              </Link>
+              <Link
+                onClick={() =>
+                  Event(
+                    "LINK",
+                    "Portfolio header_bar link to aboutme clicked",
+                    "HEADER_BAR"
+                  )
+                }
+                to="/aboutme"
+              >
+                About Me
+              </Link>
+              <Link
+                onClick={() =>
+                  Event(
+                    "LINK",
+                    "Portfolio header_bar link to projects clicked",
+                    "HEADER_BAR"
+                  )
+                }
+                to="/projects"
+              >
+                Projects
+              </Link>
+              <Link
+                onClick={() =>
+                  Event(
+                    "LINK",
+                    "Portfolio header_bar link to contact clicked",
+                    "HEADER_BAR"
+                  )
+                }
+                to="/contact"
+              >
+                Contact
+              </Link>
             </Navigation>
           </Header>
           <Drawer
@@ -41,10 +91,54 @@ class App extends Component {
             }
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link
+                onClick={() =>
+                  Event(
+                    "LINK",
+                    "Portfolio mobile_side_bar link to resume clicked",
+                    "MOBILE_SIDE_BAR"
+                  )
+                }
+                to="/resume"
+              >
+                Resume
+              </Link>
+              <Link
+                onClick={() =>
+                  Event(
+                    "LINK",
+                    "Portfolio mobile_side_bar link to aboutme clicked",
+                    "MOBILE_SIDE_BAR"
+                  )
+                }
+                to="/aboutme"
+              >
+                About Me
+              </Link>
+              <Link
+                onClick={() =>
+                  Event(
+                    "LINK",
+                    "Portfolio mobile_side_bar link to projects clicked",
+                    "MOBILE_SIDE_BAR"
+                  )
+                }
+                to="/projects"
+              >
+                Projects
+              </Link>
+              <Link
+                onClick={() =>
+                  Event(
+                    "LINK",
+                    "Portfolio mobile_side_bar link to contact clicked",
+                    "MOBILE_SIDE_BAR"
+                  )
+                }
+                to="/contact"
+              >
+                Contact
+              </Link>
             </Navigation>
           </Drawer>
           <Content>
