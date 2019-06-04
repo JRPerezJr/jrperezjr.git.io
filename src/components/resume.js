@@ -200,22 +200,22 @@ export default class Resume extends Component {
             <hr style={{ borderTop: "5px solid #7ea1df" }} />
             <Skills
               programlang="PROGRAMMING LANGUAGES"
-              lang="Javascript, Python, Java, HTML5, CSS3, Typescript "
+              lang="Javascript, HTML5, CSS3"
             />
             <Skills
               frameLib="FRAMEWORKS/LIBRARIES"
-              frame="Django, Flask, Node.js, Express.js, Angular 6, Bootstrap, JQuery, Materialize, Mongoose "
+              frame="Node.js, Express.js, Angular 6, Bootstrap, JQuery, Materialize, Mongoose "
             />
             <Skills apiProto="API/PROTOCOLS" api="AJAX, RESTful" />
             <Skills
               softDev="SOFTWARE/DEVTOOLS"
-              soft="MySQL, SQLite, Mongo DB, Git, VSCode, Spring Tool Suite, Terminal/Command Prompt, Postman, MySQL Workbench "
+              soft="MySQL, SQLite, Mongo DB, Git, VSCode, Terminal/Command Prompt, Postman, MySQL Workbench "
             />
             <Skills
               dataFormats="DATA FORMATS"
               data="JSON(JavaScript Object Notation)"
             />
-            <Skills versionControl="VERSION CONTROL" version="Github, GitLab" />
+            <Skills versionControl="VERSION CONTROL" version="Github" />
           </Cell>
         </Grid>
       </div>
