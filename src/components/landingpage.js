@@ -19,8 +19,8 @@ export default class LandingPage extends Component {
               <h1>Full Stack Developer</h1>
               <hr />
               <p>
-                HTML5/CSS3 | <span className="b">Bootstrap</span> | Java/Spring
-                | JavaScript | Angular 6 | <span className="m">M</span>
+                HTML5/CSS3 | <span className="b">Bootstrap</span> | JavaScript
+                | ReactJS | Angular 6 | <span className="m">M</span>
                 <span className="e">E</span>
                 <span className="a">A</span>
                 <span className="n">N</span>
