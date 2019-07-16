@@ -19,10 +19,10 @@ export default class Projects extends Component {
     super(props);
     this.state = { activeTab: 0 };
   }
-  onClick() {
-    alert("Webpage is currently under maintenance. Please check back later.");
-    Event("BUTTON", "Project_page MEAN live button clicked", "PROJECT_PAGE");
-  }
+  // onClick() {
+  //   alert("Webpage is currently under maintenance. Please check back later.");
+  //   Event("BUTTON", "Project_page MEAN live button clicked", "PROJECT_PAGE");
+  // }
   onClickJava() {
     alert("This repo has not been pushed to Github. Please check back later.");
     Event("BUTTON", "Project_page Java GitHub button clicked", "PROJECT_PAGE");
@@ -126,17 +126,17 @@ export default class Projects extends Component {
               {/* <Button colored>CodePen</Button> */}
 
               {/* <--Live Demo button start--> */}
-              {/* <a
+              <a
                 href="http://disaster.projects.jperezdevinjp.tech"
                 rel="noopener noreferrer"
                 target="_blank"
                 style={{ textDecoration: "none", color: "rgb(63,81,181)" }}
               >
                 <Button colored>LiveDemo</Button>
-              </a> */}
-              <Button onClick={this.onClick} colored>
+              </a>
+              {/* <Button onClick={this.onClick} colored>
                 LiveDemo
-              </Button>
+              </Button> */}
               {/* <--Live Demo button end--> */}
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
