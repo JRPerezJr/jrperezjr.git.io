@@ -59,13 +59,25 @@ export default class LandingPage extends Component {
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
                 {/* Email */}
-                <Link to="/contact">
+                <a
+                  onClick={() =>
+                    Event(
+                      "LINK",
+                      "Portfolio contact_page mail to clicked",
+                      "CONTACT_PAGE"
+                    )
+                  }
+                  href="mailto:contact@jperezdevinjp.tech"
+                  title="Open default email program to send a message"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <i
                     className="fa fa-envelope-square"
                     title="Go to my portfolio contact page"
                     aria-hidden="true"
                   />
-                </Link>
+                </a>
               </div>
             </div>
           </Cell>
