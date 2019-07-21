@@ -37,6 +37,18 @@ class App extends Component {
                 onClick={() =>
                   Event(
                     "LINK",
+                    "Portfolio header_bar link to projects clicked",
+                    "HEADER_BAR"
+                  )
+                }
+                to="/projects"
+              >
+                Projects
+              </Link>
+              <Link
+                onClick={() =>
+                  Event(
+                    "LINK",
                     "Portfolio header_bar link to resume clicked",
                     "HEADER_BAR"
                   )
@@ -56,18 +68,6 @@ class App extends Component {
                 to="/aboutme"
               >
                 About Me
-              </Link>
-              <Link
-                onClick={() =>
-                  Event(
-                    "LINK",
-                    "Portfolio header_bar link to projects clicked",
-                    "HEADER_BAR"
-                  )
-                }
-                to="/projects"
-              >
-                Projects
               </Link>
               {/* <Link
                 onClick={() =>
@@ -95,6 +95,18 @@ class App extends Component {
                 onClick={() =>
                   Event(
                     "LINK",
+                    "Portfolio mobile_side_bar link to projects clicked",
+                    "MOBILE_SIDE_BAR"
+                  )
+                }
+                to="/projects"
+              >
+                Projects
+              </Link>
+              <Link
+                onClick={() =>
+                  Event(
+                    "LINK",
                     "Portfolio mobile_side_bar link to resume clicked",
                     "MOBILE_SIDE_BAR"
                   )
@@ -114,18 +126,6 @@ class App extends Component {
                 to="/aboutme"
               >
                 About Me
-              </Link>
-              <Link
-                onClick={() =>
-                  Event(
-                    "LINK",
-                    "Portfolio mobile_side_bar link to projects clicked",
-                    "MOBILE_SIDE_BAR"
-                  )
-                }
-                to="/projects"
-              >
-                Projects
               </Link>
               {/* <Link
                 onClick={() =>
