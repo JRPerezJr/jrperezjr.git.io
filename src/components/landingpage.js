@@ -35,7 +35,7 @@ export default class LandingPage extends Component {
                       "LANDING_PAGE_SECTION"
                     )
                   }
-                  href="https://www.linkedin.com/in/devjuanperezjr"
+                  href="https://www.linkedin.com/in/devjperez"
                   title="Go to my LinkedIn page"
                   rel="noopener noreferrer"
                   target="_blank"
