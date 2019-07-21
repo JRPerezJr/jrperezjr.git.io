@@ -69,7 +69,7 @@ class App extends Component {
               >
                 Projects
               </Link>
-              <Link
+              {/* <Link
                 onClick={() =>
                   Event(
                     "LINK",
@@ -80,7 +80,7 @@ class App extends Component {
                 to="/contact"
               >
                 Contact
-              </Link>
+              </Link> */}
             </Navigation>
           </Header>
           <Drawer
@@ -127,7 +127,7 @@ class App extends Component {
               >
                 Projects
               </Link>
-              <Link
+              {/* <Link
                 onClick={() =>
                   Event(
                     "LINK",
@@ -138,7 +138,7 @@ class App extends Component {
                 to="/contact"
               >
                 Contact
-              </Link>
+              </Link> */}
             </Navigation>
           </Drawer>
           <Content>

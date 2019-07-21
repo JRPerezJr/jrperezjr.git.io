@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 
-import { Link } from "react-router-dom";
 import { Event } from "./Track";
 
 export default class LandingPage extends Component {
