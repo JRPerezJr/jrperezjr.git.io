@@ -15,7 +15,7 @@ export default class LandingPage extends Component {
               className="avatar-img"
             />
             <div className="banner-text">
-              <h1>Full Stack Developer</h1>
+              <h1>Software Developer</h1>
               <hr />
               <p>
                 HTML5/CSS3 | Bootstrap | JavaScript | ReactJS | Angular 6 |{" "}
