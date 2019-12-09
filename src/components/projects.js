@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import {
   Tabs,
   Tab,
@@ -10,9 +10,9 @@ import {
   CardActions,
   Button,
   CardMenu
-} from "react-mdl";
+} from 'react-mdl';
 // import mean from '../images/mean.png';
-import { Event } from "./Track";
+import { Event } from './Track';
 
 export default class Projects extends Component {
   constructor(props) {
@@ -24,42 +24,42 @@ export default class Projects extends Component {
   //   Event("BUTTON", "Project_page MEAN live button clicked", "PROJECT_PAGE");
   // }
   onClickJava() {
-    alert("This repo has not been pushed to Github. Please check back later.");
-    Event("BUTTON", "Project_page Java GitHub button clicked", "PROJECT_PAGE");
+    alert('This repo has not been pushed to Github. Please check back later.');
+    Event('BUTTON', 'Project_page Java GitHub button clicked', 'PROJECT_PAGE');
   }
   onClickGit() {
-    alert("This repo has not been pushed to Github. Please check back later.");
-    Event("BUTTON", "Project_page GitHUB button clicked", "PROJECT_PAGE");
+    alert('This repo has not been pushed to Github. Please check back later.');
+    Event('BUTTON', 'Project_page GitHUB button clicked', 'PROJECT_PAGE');
   }
   onClickFlutter() {
-    alert("This project has been postponed. Please check back later.");
-    Event("BUTTON", "Project_page Flutter buttons clicked", "PROJECT_PAGE");
+    alert('This project has been postponed. Please check back later.');
+    Event('BUTTON', 'Project_page Flutter buttons clicked', 'PROJECT_PAGE');
   }
   onClickMeanRestaurant() {
-    alert("This project is still under development. Please check back later.");
+    alert('This project is still under development. Please check back later.');
     Event(
-      "BUTTON",
-      "Project_page MEAN Restaurant buttons clicked",
-      "PROJECT_PAGE"
+      'BUTTON',
+      'Project_page MEAN Restaurant buttons clicked',
+      'PROJECT_PAGE'
     );
   }
   toggleCategories() {
     //<--------------MEAN Projects page------------------->
     if (this.state.activeTab === 0) {
-      Event("PROJECT_LINK", "Project_Page MEAN Button clicked", "PROJECT_PAGE");
+      Event('PROJECT_LINK', 'Project_Page MEAN Button clicked', 'PROJECT_PAGE');
       return (
         <div className="projects-grid">
           {/* <--Disaster Project start--> */}
           <Card
             shadow={5}
             // className="disaster-card"
-            style={{ margin: "auto" }}
+            style={{ margin: 'auto' }}
           >
             <CardTitle className="title-image-mean">Disaster</CardTitle>
             <CardText>
               <div className="card-text">
                 <strong>
-                  A group project for NASA Space Apps Challenge 2018:{" "}
+                  A group project for NASA Space Apps Challenge 2018:{' '}
                 </strong>
                 <p>
                   The project was a disaster preparedness application designed
@@ -108,17 +108,17 @@ export default class Projects extends Component {
               <a
                 onClick={() =>
                   Event(
-                    "LINK",
-                    "Project NASA GitHub Repo Button clicked",
-                    "PROJECT_PAGE"
+                    'LINK',
+                    'Project NASA GitHub Repo Button clicked',
+                    'PROJECT_PAGE'
                   )
                 }
                 href="https://github.com/sg27950/disaster/tree/ForPortfolioUse"
                 rel="noopener noreferrer"
                 target="_blank"
                 style={{
-                  textDecoration: "none",
-                  color: "rgb(63,81,181)"
+                  textDecoration: 'none',
+                  color: 'rgb(63,81,181)'
                 }}
               >
                 <Button colored>GitHub</Button>
@@ -130,23 +130,25 @@ export default class Projects extends Component {
                 href="http://disaster.projects.jperezdevinjp.tech"
                 rel="noopener noreferrer"
                 target="_blank"
-                style={{ textDecoration: "none", color: "rgb(63,81,181)" }}
+                style={{ textDecoration: 'none', color: 'rgb(63,81,181)' }}
               >
-                <Button colored>LiveDemo</Button>
+                <Button colored disabled>
+                  LiveDemo
+                </Button>
               </a>
               {/* <Button onClick={this.onClick} colored>
                 LiveDemo
               </Button> */}
               {/* <--Live Demo button end--> */}
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
+            <CardMenu style={{ color: '#fff' }}>
               {/* <IconButton name="share" /> */}
             </CardMenu>
           </Card>
           {/* <--Disaster Project end--> */}
 
           {/* <--Restaurant Reviewer start--> */}
-          <Card shadow={5} style={{ margin: "auto" }}>
+          <Card shadow={5} style={{ margin: 'auto' }}>
             <CardTitle className="title-image-mean">
               Restaurant Reviewer
             </CardTitle>
@@ -170,7 +172,7 @@ export default class Projects extends Component {
                 LiveDemo
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
+            <CardMenu style={{ color: '#fff' }}>
               {/* <IconButton name="share" /> */}
             </CardMenu>
           </Card>
@@ -180,14 +182,14 @@ export default class Projects extends Component {
       //<-----------------React projects page--------------------->
     } else if (this.state.activeTab === 1) {
       Event(
-        "PROJECT_LINK",
-        "Project_page React Button clicked",
-        "PROJECT_PAGE"
+        'PROJECT_LINK',
+        'Project_page React Button clicked',
+        'PROJECT_PAGE'
       );
       return (
         <div className="projects-grid">
           {/* <--React Portfolio Project Start--> */}
-          <Card shadow={5} style={{ margin: "auto" }}>
+          <Card shadow={5} style={{ margin: 'auto' }}>
             <CardTitle
               className="title-image-react"
               // style={{
@@ -218,17 +220,17 @@ export default class Projects extends Component {
               <a
                 onClick={() =>
                   Event(
-                    "LINK",
-                    "Project_page Portfolio GitHub Repo Button clicked",
-                    "PROJECT_PAGE"
+                    'LINK',
+                    'Project_page Portfolio GitHub Repo Button clicked',
+                    'PROJECT_PAGE'
                   )
                 }
                 href="https://github.com/JRPerezJr/jrperezjr.git.io"
                 rel="noopener noreferrer"
                 target="_blank"
                 style={{
-                  textDecoration: "none",
-                  color: "rgb(63,81,181)"
+                  textDecoration: 'none',
+                  color: 'rgb(63,81,181)'
                 }}
               >
                 <Button colored>GitHub</Button>
@@ -237,30 +239,30 @@ export default class Projects extends Component {
               <a
                 onClick={() =>
                   Event(
-                    "LINK",
-                    "Project_page Live Portfolio Button clicked",
-                    "PROJECT_PAGE"
+                    'LINK',
+                    'Project_page Live Portfolio Button clicked',
+                    'PROJECT_PAGE'
                   )
                 }
                 href="http://portfolio.jperezdevinjp.tech/"
                 rel="noopener noreferrer"
                 target="_blank"
                 style={{
-                  textDecoration: "none",
-                  color: "rgb(63,81,181)"
+                  textDecoration: 'none',
+                  color: 'rgb(63,81,181)'
                 }}
               >
                 <Button colored>Live Demo</Button>
               </a>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
+            <CardMenu style={{ color: '#fff' }}>
               {/* <IconButton name="share" /> */}
             </CardMenu>
           </Card>
           {/* <--React Portfolio Project Start--> */}
 
           {/* <--React Automotive Project Start--> */}
-          <Card shadow={5} style={{ margin: "auto" }}>
+          <Card shadow={5} style={{ margin: 'auto' }}>
             <CardTitle className="title-image-react-auto">
               Garabito's Garage
             </CardTitle>
@@ -300,23 +302,23 @@ export default class Projects extends Component {
               <a
                 onClick={() =>
                   Event(
-                    "LINK",
-                    "Project_page Live Garabito Garage Button clicked",
-                    "PROJECT_PAGE"
+                    'LINK',
+                    'Project_page Live Garabito Garage Button clicked',
+                    'PROJECT_PAGE'
                   )
                 }
                 href="http://automotive.project.jperezdevinjp.tech/"
                 rel="noopener noreferrer"
                 target="_blank"
                 style={{
-                  textDecoration: "none",
-                  color: "rgb(63,81,181)"
+                  textDecoration: 'none',
+                  color: 'rgb(63,81,181)'
                 }}
               >
                 <Button colored>Live Demo</Button>
               </a>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
+            <CardMenu style={{ color: '#fff' }}>
               {/* <IconButton name="share" /> */}
             </CardMenu>
           </Card>
@@ -325,10 +327,10 @@ export default class Projects extends Component {
       );
       //<----------------------Java projects page------------------------->
     } else if (this.state.activeTab === 2) {
-      Event("PROJECT_LINK", "Project_page Java Button clicked", "PROJECT_PAGE");
+      Event('PROJECT_LINK', 'Project_page Java Button clicked', 'PROJECT_PAGE');
       return (
         <div className="projects-grid">
-          <Card shadow={5} style={{ minWidth: "512", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: '512', margin: 'auto' }}>
             <CardTitle className="title-image-java">The Smiths Space</CardTitle>
             <CardText>
               <div className="card-text">
@@ -367,7 +369,7 @@ export default class Projects extends Component {
                 Live Demo
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
+            <CardMenu style={{ color: '#fff' }}>
               {/* <IconButton name="share" /> */}
             </CardMenu>
           </Card>
@@ -376,13 +378,13 @@ export default class Projects extends Component {
       //<------------------------Flutter projects page------------------>
     } else if (this.state.activeTab === 3) {
       Event(
-        "PROJECT_LINK",
-        "Project_page Flutter Button clicked",
-        "PROJECT_PAGE"
+        'PROJECT_LINK',
+        'Project_page Flutter Button clicked',
+        'PROJECT_PAGE'
       );
       return (
         <div className="projects-grid">
-          <Card shadow={5} style={{ minWidth: "500", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: '500', margin: 'auto' }}>
             <CardTitle className="title-image-flutter">
               Vehicle Campaign Finder
             </CardTitle>
@@ -404,7 +406,7 @@ export default class Projects extends Component {
                 LiveDemo
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
+            <CardMenu style={{ color: '#fff' }}>
               {/* <IconButton name="share" /> */}
             </CardMenu>
           </Card>
@@ -421,10 +423,10 @@ export default class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab style={{ color: "#7ea1df" }}>MEAN</Tab>
-          <Tab style={{ color: "#7ea1df" }}>React</Tab>
-          <Tab style={{ color: "#7ea1df" }}>Java</Tab>
-          <Tab style={{ color: "#7ea1df" }}>Flutter</Tab>
+          <Tab style={{ color: '#7ea1df' }}>MEAN</Tab>
+          <Tab style={{ color: '#7ea1df' }}>React</Tab>
+          <Tab style={{ color: '#7ea1df' }}>Java</Tab>
+          <Tab style={{ color: '#7ea1df' }}>Flutter</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>
