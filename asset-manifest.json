@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae9ac415.chunk.css",
-    "main.js": "/static/js/main.87c157d9.chunk.js",
-    "main.js.map": "/static/js/main.87c157d9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.170f8412.js",
-    "runtime-main.js.map": "/static/js/runtime-main.170f8412.js.map",
-    "static/css/2.559fd73f.chunk.css": "/static/css/2.559fd73f.chunk.css",
-    "static/js/2.acb2e243.chunk.js": "/static/js/2.acb2e243.chunk.js",
-    "static/js/2.acb2e243.chunk.js.map": "/static/js/2.acb2e243.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.32047746ee34e6b7171a1675e2d5a9db.js": "/precache-manifest.32047746ee34e6b7171a1675e2d5a9db.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.559fd73f.chunk.css.map": "/static/css/2.559fd73f.chunk.css.map",
-    "static/css/main.ae9ac415.chunk.css.map": "/static/css/main.ae9ac415.chunk.css.map",
-    "static/js/2.acb2e243.chunk.js.LICENSE": "/static/js/2.acb2e243.chunk.js.LICENSE"
+    "main.css": "/jrperezjr.git.io/static/css/main.ae9ac415.chunk.css",
+    "main.js": "/jrperezjr.git.io/static/js/main.18f74366.chunk.js",
+    "main.js.map": "/jrperezjr.git.io/static/js/main.18f74366.chunk.js.map",
+    "runtime-main.js": "/jrperezjr.git.io/static/js/runtime-main.fe85d303.js",
+    "runtime-main.js.map": "/jrperezjr.git.io/static/js/runtime-main.fe85d303.js.map",
+    "static/css/2.559fd73f.chunk.css": "/jrperezjr.git.io/static/css/2.559fd73f.chunk.css",
+    "static/js/2.acb2e243.chunk.js": "/jrperezjr.git.io/static/js/2.acb2e243.chunk.js",
+    "static/js/2.acb2e243.chunk.js.map": "/jrperezjr.git.io/static/js/2.acb2e243.chunk.js.map",
+    "index.html": "/jrperezjr.git.io/index.html",
+    "precache-manifest.a21a1f2beb90ecabaa735f1b36c38798.js": "/jrperezjr.git.io/precache-manifest.a21a1f2beb90ecabaa735f1b36c38798.js",
+    "service-worker.js": "/jrperezjr.git.io/service-worker.js",
+    "static/css/2.559fd73f.chunk.css.map": "/jrperezjr.git.io/static/css/2.559fd73f.chunk.css.map",
+    "static/css/main.ae9ac415.chunk.css.map": "/jrperezjr.git.io/static/css/main.ae9ac415.chunk.css.map",
+    "static/js/2.acb2e243.chunk.js.LICENSE": "/jrperezjr.git.io/static/js/2.acb2e243.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.170f8412.js",
+    "static/js/runtime-main.fe85d303.js",
     "static/css/2.559fd73f.chunk.css",
     "static/js/2.acb2e243.chunk.js",
     "static/css/main.ae9ac415.chunk.css",
-    "static/js/main.87c157d9.chunk.js"
+    "static/js/main.18f74366.chunk.js"
   ]
 }
