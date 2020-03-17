@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jrperezjr.git.io/static/css/main.1ae956dc.chunk.css",
-    "main.js": "/jrperezjr.git.io/static/js/main.8476d7b2.chunk.js",
-    "main.js.map": "/jrperezjr.git.io/static/js/main.8476d7b2.chunk.js.map",
+    "main.js": "/jrperezjr.git.io/static/js/main.8a249ec9.chunk.js",
+    "main.js.map": "/jrperezjr.git.io/static/js/main.8a249ec9.chunk.js.map",
     "runtime-main.js": "/jrperezjr.git.io/static/js/runtime-main.fe85d303.js",
     "runtime-main.js.map": "/jrperezjr.git.io/static/js/runtime-main.fe85d303.js.map",
     "static/css/2.559fd73f.chunk.css": "/jrperezjr.git.io/static/css/2.559fd73f.chunk.css",
     "static/js/2.59f0e1d6.chunk.js": "/jrperezjr.git.io/static/js/2.59f0e1d6.chunk.js",
     "static/js/2.59f0e1d6.chunk.js.map": "/jrperezjr.git.io/static/js/2.59f0e1d6.chunk.js.map",
     "index.html": "/jrperezjr.git.io/index.html",
-    "precache-manifest.54f491b863f75936e071d1495c45e94e.js": "/jrperezjr.git.io/precache-manifest.54f491b863f75936e071d1495c45e94e.js",
+    "precache-manifest.366afda928edca133b8b45dcd8c6a15c.js": "/jrperezjr.git.io/precache-manifest.366afda928edca133b8b45dcd8c6a15c.js",
     "service-worker.js": "/jrperezjr.git.io/service-worker.js",
     "static/css/2.559fd73f.chunk.css.map": "/jrperezjr.git.io/static/css/2.559fd73f.chunk.css.map",
     "static/css/main.1ae956dc.chunk.css.map": "/jrperezjr.git.io/static/css/main.1ae956dc.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.559fd73f.chunk.css",
     "static/js/2.59f0e1d6.chunk.js",
     "static/css/main.1ae956dc.chunk.css",
-    "static/js/main.8476d7b2.chunk.js"
+    "static/js/main.8a249ec9.chunk.js"
   ]
 }
